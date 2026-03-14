@@ -2,6 +2,10 @@
 
 自動完成 [MOSME](https://www.mosme.net) 即時測評的工具，透過 Playwright 控制瀏覽器登入、展開題庫、選擇試卷並自動作答。
 
+## 展示
+
+<video src="demo.mp4" controls width="100%"></video>
+
 ## 功能
 
 - 自動登入 MOSME（透過 IPOE 帳號）
@@ -20,8 +24,6 @@
 ## 安裝
 
 ```bash
-# On Windows.
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 uv sync
 uv run playwright install chromium
 ```
